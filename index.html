@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <title>여행을떠나요~!</title>
+    <link rel="stylesheet" type="text/css" href = "style.css">
+
+</head>
+
+<body>
+    <div class="banner">
+        <h1>떠나자!! 어디로??</h1>
+    </div>
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://img.khan.co.kr/news/2020/05/16/l_2020051501001795300138001.jpg"
+                 alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style="color: black;">Card title</h5>
+                <p class="card-text" style="color: black;">.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top"
+                 src="https://a.cdn-hotels.com/gdcs/production97/d1097/5fbc5470-0ff4-4420-aeec-2440f4091332.jpg"
+                 alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style="color: black;">Card title</h5>
+                <p class="card-text" style="color: black;">.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="http://san.chosun.com/site/data/img_dir/2020/09/24/2020092401497_0.jpg"
+                 alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style="color: black;">Card title</h5>
+                <p class="card-text" style="color: black;">.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkovMIrjCU9dZAfFKGfdrPK31GtxmTUng0g&usqp=CAU"
+                 alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style="color: black;">Card title</h5>
+                <p class="card-text" style="color: black;">.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+<!--지도-->
+        <img style="float: left; margin-left: 12px; margin-bottom: 20px;"
+             src="https://mblogthumb-phinf.pstatic.net/MjAxODAxMDVfMTc2/MDAxNTE1MTQwNzU3NDAy.3OGQ4vnBNKxder6WQts07OMGJ3QZibwrBv0qfaLCEAAg.lk8dNf63EISyYVf1ZDvnX3pECn7k8HN1uth3Mdd_5Lwg.JPEG.jsong9777/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%97%AC%ED%96%89%EC%A7%80%EB%8F%84_2017_2018.jpg?type=w2"
+<!--여행지좋아요-->
+        <section class="hero is-warning" style="text-indent: 1em;">
+            <div class="hero-body" style="margin-left: 12px;">
+                <div class="container center">
+                    <h1 class="title" style="font-size: 30px; color: black;">
+                        마이 페이보릿 여행지😆
+                    </h1>
+                    <h2 class="subtitle" style="font-size: 24px; color: black;">
+                        순위를 매겨봅시다
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <div class="star-list" id="star-box">
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img
+                                        src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201807%2F20180731143610623-6213324.jpg&type=u120_150&quality=95"
+                                        alt="Placeholder image"
+                                />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <a href="#" target="_blank" class="star-name title is-4">김다미 (좋아요: 3)</a>
+                            <p class="subtitle is-6">안녕, 나의 소울메이트(가제)</p>
+                        </div>
+                    </div>
+                </div>
+                <footer class="card-footer">
+                    <a href="#" onclick="likeStar('김다미')" class="card-footer-item has-text-info">
+                        위로!
+                        <span class="icon">
+              <i class="fas fa-thumbs-up"></i>
+            </span>
+                    </a>
+                    <a href="#" onclick="deleteStar('김다미')" class="card-footer-item has-text-danger">
+                        삭제
+                        <span class="icon">
+              <i class="fas fa-ban"></i>
+            </span>
+                    </a>
+                </footer>
+            </div>
+        </div>
+        <div class="star-list" id="star-box">
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img
+                                        src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201807%2F20180731143610623-6213324.jpg&type=u120_150&quality=95"
+                                        alt="Placeholder image"
+                                />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <a href="#" target="_blank" class="star-name title is-4">김다미 (좋아요: 3)</a>
+                            <p class="subtitle is-6">안녕, 나의 소울메이트(가제)</p>
+                        </div>
+                    </div>
+                </div>
+                <footer class="card-footer">
+                    <a href="#" onclick="likeStar('김다미')" class="card-footer-item has-text-info">
+                        위로!
+                        <span class="icon">
+              <i class="fas fa-thumbs-up"></i>
+            </span>
+                    </a>
+                    <a href="#" onclick="deleteStar('김다미')" class="card-footer-item has-text-danger">
+                        삭제
+                        <span class="icon">
+              <i class="fas fa-ban"></i>
+            </span>
+                    </a>
+                </footer>
+            </div>
+        </div>
+        <div class="star-list" id="star-box">
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img
+                                        src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201807%2F20180731143610623-6213324.jpg&type=u120_150&quality=95"
+                                        alt="Placeholder image"
+                                />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <a href="#" target="_blank" class="star-name title is-4">김다미 (좋아요: 3)</a>
+                            <p class="subtitle is-6">안녕, 나의 소울메이트(가제)</p>
+                        </div>
+                    </div>
+                </div>
+                <footer class="card-footer">
+                    <a href="#" onclick="likeStar('김다미')" class="card-footer-item has-text-info">
+                        위로!
+                        <span class="icon">
+              <i class="fas fa-thumbs-up"></i>
+            </span>
+                    </a>
+                    <a href="#" onclick="deleteStar('김다미')" class="card-footer-item has-text-danger">
+                        삭제
+                        <span class="icon">
+              <i class="fas fa-ban"></i>
+            </span>
+                    </a>
+                </footer>
+            </div>
+        </div>
+        <div class="star-list" id="star-box">
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img
+                                        src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2Fportrait%2F201807%2F20180731143610623-6213324.jpg&type=u120_150&quality=95"
+                                        alt="Placeholder image"
+                                />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <a href="#" target="_blank" class="star-name title is-4">김다미 (좋아요: 3)</a>
+                            <p class="subtitle is-6">안녕, 나의 소울메이트(가제)</p>
+                        </div>
+                    </div>
+                </div>
+                <footer class="card-footer">
+                    <a href="#" onclick="likeStar('김다미')" class="card-footer-item has-text-info">
+                        위로!
+                        <span class="icon">
+              <i class="fas fa-thumbs-up"></i>
+            </span>
+                    </a>
+                    <a href="#" onclick="deleteStar('김다미')" class="card-footer-item has-text-danger">
+                        삭제
+                        <span class="icon">
+              <i class="fas fa-ban"></i>
+            </span>
+                    </a>
+                </footer>
+            </div>
+        </div>
+<!--드랍다운-->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                     viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg> 제목으로검색하세요
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+</body>
+
+</html>
